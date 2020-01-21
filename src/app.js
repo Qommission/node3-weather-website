@@ -105,7 +105,7 @@ app.get('*', (req, res) => {
     res.render('404',{
         title: "Error 404 D:",
         body: "** You know the drill **",
-        errorMsg: "I have no clue where you think you're going but it ain't here.",
+        errorMsg: "You know the drill",
         extension: "/",
         redirect: "Home"
     })
